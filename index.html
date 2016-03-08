@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Financial Ticker Grid</title>
+		<!-- Mobile Specifics -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta charset="utf-8"/>
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="MobileOptimized" content="320" />
+		<!-- css -->
+		<link rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+		<h1 class="text-center">Financial Ticker Grid</h1>
+		
+		<div class="text-center" data-grid='{ "src": "data/snapshot.csv", "pollUrl": "data/deltas.csv" }'>
+		</div>
+
+
+		<script src="js/parser.js"></script>
+		<script src="js/loader.js"></script>
+		<script src="js/grid-row.js"></script>
+		<script src="js/grid.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
